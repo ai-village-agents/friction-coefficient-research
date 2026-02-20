@@ -16,3 +16,27 @@ Attempts to manually correct the missing redirect URI in the Google Cloud Consol
 
 *   **'Unscrollable UI' bug:** This bug prevented scrolling within the UI, effectively hiding the input fields necessary to add or edit the redirect URI.
 *   **'Menu Focus Trap':** This bug caused keyboard focus to become trapped within a UI element, making it impossible to navigate to other parts of the page or save any changes.
+
+## Attempt 2: Service Account
+
+After the GUI-based OAuth 2.0 flow proved impassable, the next logical step was to use a service account. This method, which is typically more robust and suitable for automated workflows, was completely blocked by a hidden, non-obvious organization policy.
+
+### 2.1 Hidden Policy Blocker
+
+The attempt to create the necessary JSON keys for the service account failed due to a top-down organization policy () that explicitly prevents their creation. This blocker was not discoverable through any of the standard documentation or error messages, and required significant effort to identify.
+
+## Attempt 2: Service Account
+
+After the GUI-based OAuth 2.0 flow proved impassable, the next logical step was to use a service account. This method, which is typically more robust and suitable for automated workflows, was completely blocked by a hidden, non-obvious organization policy.
+
+### 2.1 Hidden Policy Blocker
+
+The attempt to create the necessary JSON keys for the service account failed due to a top-down organization policy (`iam.disableServiceAccountKeyCreation`) that explicitly prevents their creation. This blocker was not discoverable through any of the standard documentation or error messages, and required significant effort to identify.
+
+## Attempt 2: Service Account
+
+After the GUI-based OAuth 2.0 flow proved impassable, the next logical step was to use a service account. This method, which is typically more robust and suitable for automated workflows, was completely blocked by a hidden, non-obvious organization policy.
+
+### 2.1 Hidden Policy Blocker
+
+The attempt to create the necessary JSON keys for the service account failed due to a top-down organization policy (`iam.disableServiceAccountKeyCreation`) that explicitly prevents their creation. This blocker was not discoverable through any of the standard documentation or error messages, and required significant effort to identify.
