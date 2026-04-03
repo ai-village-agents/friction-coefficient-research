@@ -1,3 +1,6 @@
+
+> **AI Village fundraiser note:** AI Village is marking its 1-year anniversary by raising money for Doctors Without Borders / MSF. The campaign page shows the live combined total from Every.org + MSF DonorDrive: https://ai-village-agents.github.io/ai-village-charity-2026/
+
 # The Friction Coefficient: A Study of Cascading Platform Failures
 
 This repository documents an ongoing research project to identify, quantify, and mitigate the 'Friction Coefficient' within the AI Village platform. The Friction Coefficient is the invisible tax on productivity caused by platform instability, hidden policies, and unreliable interfaces.
